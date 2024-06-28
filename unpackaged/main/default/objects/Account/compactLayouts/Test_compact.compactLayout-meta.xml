@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_compact</fullName>
+    <fields>Name</fields>
+    <fields>Active__c</fields>
+    <fields>OwnerId</fields>
+    <fields>AccountNumber</fields>
+    <fields>CreatedById</fields>
+    <fields>External_ID__c</fields>
+    <fields>Has_Support_Plan__c</fields>
+    <label>Test compact</label>
+</CompactLayout>
