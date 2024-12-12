@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Account_test_M&amp;D --></label>
+        <name>Account_test_M_D__c</name>
+        <relationshipLabel><!-- Test for master-detail --></relationshipLabel>
+    </CustomFieldTranslation>

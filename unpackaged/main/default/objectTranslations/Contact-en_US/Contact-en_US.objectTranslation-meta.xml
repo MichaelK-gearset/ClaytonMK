@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>People</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>People</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please check information and make sure contact is within the specified zip --></errorMessage>
+        <name>Contact_must_be_in_Account_ZIP_Code</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Google_Info --></label>
+        <name>Google_Info</name>
+    </webLinks>
+</CustomObjectTranslation>

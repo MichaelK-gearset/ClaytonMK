@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Customer Account Layout</layout>
+        <sections>
+            <label><!-- Support Plan Information --></label>
+            <section>Support Plan Information</section>
+        </sections>
+        <sections>
+            <label>Vertriebsregion</label>
+            <section>Vertriebsregion</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- New record --></label>
+        <name>New_record</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For consulting partners. --></description>
+        <label><!-- Partner Account --></label>
+        <name>Partner_Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please make sure all account numbers are 8 characters long --></errorMessage>
+        <name>Account_Number_8_Characters</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter an expiration date when an account has a support plan. --></errorMessage>
+        <name>Support_plan_expiration_date_required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_button --></label>
+        <name>New_button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Button --></label>
+        <name>Test_Button</name>
+    </webLinks>
+    <workflowTasks>
+        <name>testing</name>
+        <subject><!-- testing --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

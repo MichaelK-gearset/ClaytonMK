@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_test_M_D__c</fullName>
+    <description>Master detail relationship test</description>
+    <externalId>false</externalId>
+    <label>Account_test_M&amp;D</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Test for master-detail</relationshipLabel>
+    <relationshipName>Test_for_master_detail</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Testing_new_message</fullName>
+        <apiVersion>61.0</apiVersion>
+        <description>Using v61 on the case object</description>
+        <endpointUrl>https://michael.krumwiede@gearset.com</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>AssetId</fields>
+        <fields>AssetWarrantyId</fields>
+        <fields>Backup_Agent__c</fields>
+        <fields>BusinessHoursId</fields>
+        <fields>CaseNumber</fields>
+        <fields>Cloned_From__c</fields>
+        <fields>ClosedDate</fields>
+        <fields>Comments</fields>
+        <fields>ContactEmail</fields>
+        <fields>ContactFax</fields>
+        <fields>ContactId</fields>
+        <fields>ContactMobile</fields>
+        <fields>ContactPhone</fields>
+        <fields>CreatedById</fields>
+        <fields>CreatedDate</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>Description</fields>
+        <fields>EngineeringReqNumber__c</fields>
+        <fields>EntitlementId</fields>
+        <fields>Id</fields>
+        <fields>IsClosed</fields>
+        <fields>IsClosedOnCreate</fields>
+        <fields>IsDeleted</fields>
+        <fields>IsEscalated</fields>
+        <fields>IsStopped</fields>
+        <fields>LastModifiedById</fields>
+        <fields>LastModifiedDate</fields>
+        <fields>LastReferencedDate</fields>
+        <fields>LastViewedDate</fields>
+        <fields>MasterRecordId</fields>
+        <fields>MilestoneStatus</fields>
+        <fields>Origin</fields>
+        <fields>OwnerId</fields>
+        <fields>ParentId</fields>
+        <fields>PotentialLiability__c</fields>
+        <fields>Priority</fields>
+        <fields>ProductId</fields>
+        <fields>Product__c</fields>
+        <fields>QA_Reviewer__c</fields>
+        <fields>Reason</fields>
+        <fields>SLAViolation__c</fields>
+        <fields>ServiceContractId</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>michaelk-dev@gearset.com</integrationUser>
+        <name>Testing new message</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+</Workflow>
