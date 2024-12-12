@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingFilterCondition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <colName>OPPORTUNITY.FORECAST_CATEGORY</colName>
+    <fieldName>ForecastCategoryName</fieldName>
+    <forecastingFilter>FF_Test_Forecast_type0hl8Z0000010wHJQAY346192497171031</forecastingFilter>
+    <forecastingSourceDefinition>7sy8Z0000010xow</forecastingSourceDefinition>
+    <isProtected>false</isProtected>
+    <masterLabel>FFC_Test_Forecast_type0r08Z000000XZCDQA4185481740032711</masterLabel>
+    <operation>equals</operation>
+    <sortOrder>1</sortOrder>
+    <value>Best Case</value>
+</ForecastingFilterCondition>

@@ -5264,4 +5264,8 @@
         <enabled>true</enabled>
         <name>WorkDotComUserPerm</name>
     </userPermissions>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Bank_Account_Records</flow>
+    </flowAccesses>
 </Profile>

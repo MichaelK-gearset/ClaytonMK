@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Lighting Experience - Get Your Bearings</masterLabel>
+    <promptVersions>
+        <body>Lightning Experience may seem different than what you’re used to, but Salesforce Classic core features made the journey with you. Get your bearings with this quick tour and video at the end.</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <delayDays>1</delayDays>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>TopCenter</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>true</isPublished>
+        <masterLabel>Lighting Experience - Get Your Bearings Step 1</masterLabel>
+        <publishedDate>2024-05-22</publishedDate>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <startDate>2020-06-30</startDate>
+        <stepNumber>1</stepNumber>
+        <targetPageKey1>home</targetPageKey1>
+        <targetPageType>standard__namedPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>Let’s explore your new workspace</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+    <promptVersions>
+        <body>Go to the header of any page and click the question mark to open the Help Menu. It’s a curated list of resources that are specific to the page you’re on and the actions you can do there.</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>TopRight</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>false</isPublished>
+        <masterLabel>Lighting Experience - Get Your Bearings Step 2</masterLabel>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <stepNumber>2</stepNumber>
+        <targetPageKey1>home</targetPageKey1>
+        <targetPageType>standard__namedPage</targetPageType>
+        <title>Get help anywhere you need it</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+    <promptVersions>
+        <body>Click on the avatar in the top right corner to open the profile menu and click your name to get to your profile page. Take a moment to update your picture and banner.</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>TopRight</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>false</isPublished>
+        <masterLabel>Lighting Experience - Get Your Bearings Step 3</masterLabel>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <stepNumber>3</stepNumber>
+        <targetPageKey1>home</targetPageKey1>
+        <targetPageType>standard__namedPage</targetPageType>
+        <title>Find your profile and settings</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+    <promptVersions>
+        <body>To bookmark frequently-used records, lists, and groups, click the star icon in the header. Use the dropdown next to the star from any page and access your favorites.</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <dismissButtonLabel>Dismiss</dismissButtonLabel>
+        <displayPosition>TopRight</displayPosition>
+        <displayType>FloatingPanel</displayType>
+        <isPublished>false</isPublished>
+        <masterLabel>Lighting Experience - Get Your Bearings Step 4</masterLabel>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <stepNumber>4</stepNumber>
+        <targetPageKey1>Opportunity</targetPageKey1>
+        <targetPageKey2>list</targetPageKey2>
+        <targetPageType>standard__objectPage</targetPageType>
+        <title>Create shortcuts to favorite pages</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+    <promptVersions>
+        <body>&lt;p&gt;&lt;span style=&quot;font-size: 14.6667px; font-family: Arial; color: rgb(0, 0, 0);&quot;&gt;Now that you know the basics, watch this short video to explore more about your new workspace. Thanks for taking this tour with us!&lt;/span&gt;&lt;/p&gt;</body>
+        <customApplication>standard__LightningSales</customApplication>
+        <displayPosition>BottomCenter</displayPosition>
+        <displayType>DockedComposer</displayType>
+        <header>Lightning Experience Tips</header>
+        <isPublished>false</isPublished>
+        <masterLabel>Lighting Experience - Get Your Bearings Step 5</masterLabel>
+        <shouldDisplayActionButton>false</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>false</shouldIgnoreGlobalDelay>
+        <stepNumber>5</stepNumber>
+        <targetPageKey1>home</targetPageKey1>
+        <targetPageType>standard__namedPage</targetPageType>
+        <title>Take Lightning Experience for a spin</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+        <videoLink>https://play.vidyard.com/LfY-yg0tw_0A2YeLn42lsw</videoLink>
+    </promptVersions>
+</Prompt>

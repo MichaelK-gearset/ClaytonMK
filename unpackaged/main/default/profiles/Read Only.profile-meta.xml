@@ -6150,4 +6150,8 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Bank_Account_Records</flow>
+    </flowAccesses>
 </Profile>

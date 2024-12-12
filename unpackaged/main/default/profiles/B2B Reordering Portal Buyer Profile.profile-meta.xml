@@ -5105,4 +5105,8 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
+    <flowAccesses>
+        <enabled>true</enabled>
+        <flow>Bank_Account_Records</flow>
+    </flowAccesses>
 </Profile>
