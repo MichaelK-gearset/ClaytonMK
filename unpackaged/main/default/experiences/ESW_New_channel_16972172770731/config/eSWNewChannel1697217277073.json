@@ -1,0 +1,17 @@
+{
+  "authenticationType" : "AUTHENTICATED_WITH_PUBLIC_ACCESS_ENABLED",
+  "forgotPasswordRouteId" : null,
+  "isFilteredComponentsView" : false,
+  "isProgressiveRenderingEnabled" : false,
+  "mainAppPageId" : "d9a04843-5fa4-4be7-9d85-f28adae807f2",
+  "preferredDomain" : "none",
+  "selfRegistrationRouteId" : null,
+  "trustedSitesForScript" : [ {
+    "id" : "ef58320f-f2aa-4b71-b7ef-8d668d04c3f3",
+    "isActive" : true,
+    "trustedSiteName" : "Messaging for Web host",
+    "trustedSiteUrl" : "https://gearset662-dev-ed.my.salesforce-scrt.com",
+    "type" : "trustedSitesForScripts"
+  } ],
+  "type" : "site"
+}

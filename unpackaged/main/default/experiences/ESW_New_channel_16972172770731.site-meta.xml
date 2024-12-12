@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_New_channel_1697217277073</label>
+    <type>ChatterNetworkPicasso</type>
+    <urlPathPrefix>ESWNewchannel1697217277073</urlPathPrefix>
+</ExperienceBundle>

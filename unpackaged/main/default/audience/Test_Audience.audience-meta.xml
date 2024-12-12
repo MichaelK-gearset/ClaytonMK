@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audience xmlns="http://soap.sforce.com/2006/04/metadata">
+    <audienceName>Test Audience</audienceName>
+    <container>Testing site</container>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <isEnabled>false</isEnabled>
+                <permissionName>CreateTopics</permissionName>
+                <permissionType>Standard</permissionType>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Permission</type>
+        </criterion>
+    </criteria>
+    <formulaFilterType>AnyCriterionMatches</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>ff1d5347-0cae-4d96-bb0c-dd994cd01db4$#$7e6506ed-180a-45fc-8acf-92066e149b9f</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Tile_Menu_Component</targetValue>
+        </target>
+    </targets>
+</Audience>
