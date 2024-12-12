@@ -24,7 +24,7 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <serverIsDown>SNA_Testing_site1_sf_default_cdn_V7fEs</serverIsDown>
-    
-    
+    <siteAdmin>michaelk-dev@gearset.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>michaelk-dev@gearset.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
 </CustomSite>

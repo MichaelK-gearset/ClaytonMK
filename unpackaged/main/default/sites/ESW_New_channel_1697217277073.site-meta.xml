@@ -24,8 +24,8 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <serverIsDown>SNA_ESW_New_channel_16972172770731_sf_default_cdn_RcpUt</serverIsDown>
-    
-    
+    <siteAdmin>michaelk-dev@gearset.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>michaelk-dev@gearset.com</siteGuestRecordDefaultOwner>
     <siteIframeWhiteListUrls>
         <url>test.com</url>
     </siteIframeWhiteListUrls>

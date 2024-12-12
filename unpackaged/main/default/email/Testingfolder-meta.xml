@@ -5,8 +5,16 @@
         <sharedTo>AllCustomerPortalUsers</sharedTo>
         <sharedToType>AllCspUsers</sharedToType>
     </folderShares>
-    
-    
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>ejack@test11111.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>michaelk-dev@gearset.com</sharedTo>
+        <sharedToType>User</sharedToType>
+    </folderShares>
     <folderShares>
         <accessLevel>View</accessLevel>
         <sharedTo>Chief_Sales_Officer</sharedTo>

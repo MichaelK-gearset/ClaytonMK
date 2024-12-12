@@ -6,7 +6,10 @@
         <roles>
             <role>InstallationRepairServices</role>
         </roles>
-        
+        <users>
+            <user>integration@00d8z000001t7gsuay.com</user>
+            <user>michaelk-dev@gearset.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>
