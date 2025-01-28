@@ -15,7 +15,7 @@ public class ContactsTodayController_test {
             Task t = new Task(Subject = 'test', WhoId = c.Id, Status = 'Open');
             insert t;
             
-            System.assertNotEquals(0,ContactsTodayController.getContactsForToday().size());
+            System.assertNotEquals(0,ContactsTodayController.getContactsForToday().size(), 'Checks that there are no contacts in the current Today.');
             
         }
         
