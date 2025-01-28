@@ -1,4 +1,4 @@
-public class ContactsTodayController {
+public inherited sharing class ContactsTodayController {
     //test
     @AuraEnabled
     public static List<Contact> getContactsForToday() {
