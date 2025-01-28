@@ -7,6 +7,6 @@
     	ForgotPasswordController controller = new ForgotPasswordController();
     	controller.username = 'test@salesforce.com';     	
     
-    	System.assertEquals(controller.forgotPassword(),null); 
+    	System.assertEquals(controller.forgotPassword(),null, 'ForgotPassword is a no - op if the user clicks on the password button.'); 
     }
 }
