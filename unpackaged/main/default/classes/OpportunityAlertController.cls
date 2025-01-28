@@ -1,4 +1,4 @@
-public class OpportunityAlertController {
+public inherited sharing class OpportunityAlertController {
 
     @AuraEnabled
     public static List<Opportunity> getOpportunities(Decimal daysSinceLastModified, String oppStage, Boolean hasOpen) {
