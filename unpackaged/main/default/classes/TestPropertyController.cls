@@ -28,7 +28,7 @@ private class TestPropertyController {
             1
         );
         Test.stopTest();
-        System.assertEquals(5, result.records.size());
+        System.assertEquals(5, result.records.size(), 'Test for equality of the number of records in the result.');
     }
 
     static testMethod void testGetPicturesNoResults() {
@@ -41,7 +41,7 @@ private class TestPropertyController {
         );
         Test.stopTest();
 
-        System.assertEquals(null, items);
+        System.assertEquals(null, items, 'Assert that items are null.');
     }
 
     static testMethod void testGetPicturesWithResults() {
@@ -73,7 +73,7 @@ private class TestPropertyController {
         );
         Test.stopTest();
 
-        System.assertEquals(1, items.size());
-        System.assertEquals(MOCK_PICTURE_NAME, items[0].Title);
+        System.assertEquals(1, items.size(), 'Asserts that the size of the collection is equal to 1.');
+        System.assertEquals(MOCK_PICTURE_NAME, items[0].Title, 'Checks that the first item is the MOCK_PICTURE_NAME.');
     }
 }

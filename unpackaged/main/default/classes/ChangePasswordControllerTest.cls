@@ -9,6 +9,6 @@
         controller.newPassword = 'qwerty1'; 
         controller.verifyNewPassword = 'qwerty1';                
         
-        System.assertEquals(controller.changePassword(),null);                           
+        System.assertEquals(controller.changePassword(),null, 'Test if the current password is the same as the password in the controller.');                           
     }    
 }

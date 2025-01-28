@@ -11,10 +11,10 @@ private class TestAccountDeletion {
     Test.stopTest();
     // Verify that the deletion should have been stopped by the trigger,
     // so check that we got back an error.
-    System.assert(!result.isSuccess());
-    System.assert(result.getErrors().size() > 0);
+    System.assert(!result.isSuccess(), 'Assert that the result is not success.');
+    System.assert(result.getErrors().size() > 0, 'Assert that there are no errors in the result');
     System.assertEquals('Cannot delete account with related opportunities.',
-      result.getErrors()[0].getMessage());
+      result.getErrors()[0].getMessage(), 'This method will assert that there is no error when deleting account with opportunities.');
   }
   @isTest
   static void TestDeleteAccountWithNoOpportunities() {
@@ -26,7 +26,7 @@ private class TestAccountDeletion {
       Database.DeleteResult result = Database.delete(accts[0], false);
     Test.stopTest();
     // Verify that the deletion was successful
-    System.assert(result.isSuccess());
+    System.assert(result.isSuccess(), 'Assert that the result is a success.');
   }
   @isTest
   static void TestDeleteBulkAccountsWithOneOpportunity() {
@@ -41,10 +41,10 @@ private class TestAccountDeletion {
     // In this case the deletion should have been stopped by the trigger,
     // so check that we got back an error.
     for(Database.DeleteResult dr : results) {
-      System.assert(!dr.isSuccess());
-      System.assert(dr.getErrors().size() > 0);
+      System.assert(!dr.isSuccess(), 'Assert that the result of the operation is not success.');
+      System.assert(dr.getErrors().size() > 0, 'Assert that there are no errors in the database.');
       System.assertEquals('Cannot delete account with related opportunities.',
-        dr.getErrors()[0].getMessage());
+        dr.getErrors()[0].getMessage(), 'This method will assert that there is no error when deleting a related opportunities.');
     }
   }
   @isTest
@@ -58,7 +58,7 @@ private class TestAccountDeletion {
     Test.stopTest();
     // For each record, verify that the deletion was successful
     for(Database.DeleteResult dr : results) {
-      System.assert(dr.isSuccess());
+      System.assert(dr.isSuccess(), 'Assert that the result of the operation is true.');
     }
   }
 }

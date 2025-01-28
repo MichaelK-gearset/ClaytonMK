@@ -21,10 +21,10 @@ public class OpportunityAlertControllerTest {
         List<Opportunity> opps;
 
         opps = OpportunityAlertController.getOpportunities(0, 'Prospecting', false);
-        System.assertEquals( 1, opps.size() );
+        System.assertEquals( 1, opps.size(), 'Assert that the number of opps is equal to 1.' );
 
         opps = OpportunityAlertController.getOpportunities(0, 'Prospecting', true);
-        System.assertEquals( 0, opps.size() );
+        System.assertEquals( 0, opps.size(), 'Assert that the opps list is empty.' );
 
     }
 
@@ -48,10 +48,10 @@ public class OpportunityAlertControllerTest {
         List<Opportunity> opps;
 
         opps = OpportunityAlertController.getOpportunities(0, 'Prospecting', false);
-        System.assertEquals( 1, opps.size() );
+        System.assertEquals( 1, opps.size(), 'Assert that the number of opps is equal to 1.' );
 
         opps = OpportunityAlertController.getOpportunities(0, 'Prospecting', true);
-        System.assertEquals( 1, opps.size() );
+        System.assertEquals( 1, opps.size(), 'Assert that the number of opps is equal to 1.' );
 
     }
 

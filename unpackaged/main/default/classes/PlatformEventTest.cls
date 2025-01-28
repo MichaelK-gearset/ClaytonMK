@@ -12,11 +12,11 @@ public class PlatformEventTest {
         Test.stopTest();
         // Perform validation here
         // Verify that the publish was successful
-        System.assertEquals(true, sr.isSuccess());
+        System.assertEquals(true, sr.isSuccess(), 'Asserts that the result of the test is true.');
         // Check that the case that the trigger created is present.
         List<Case> cases = [SELECT Id FROM Case];
         // Validate that this case was found.
         // There is only one test case in test context.
-        System.assertEquals(1, cases.size());
+        System.assertEquals(1, cases.size(), 'Asserts that the number of cases is equal to 1.');
     }
 }

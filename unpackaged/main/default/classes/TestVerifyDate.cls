@@ -10,7 +10,7 @@ public class TestVerifyDate {
         Date result = VerifyDate.CheckDates(date1, date2);
 
         // Since date2 is within 30 days of date1, it should return date2
-        System.assertEquals(date2, result);
+        System.assertEquals(date2, result, 'Assert that date2 is equal to result.');
     }
 
     @isTest
@@ -23,7 +23,7 @@ public class TestVerifyDate {
 
         // Since date2 is outside 30 days of date1, it should return the end of the month of date1
         Date endOfMonth = Date.newInstance(date1.year(), date1.month(), Date.daysInMonth(date1.year(), date1.month()));
-        System.assertEquals(endOfMonth, result);
+        System.assertEquals(endOfMonth, result, 'Assert that the end of the month is equal to the given result.');
     }
 
     @isTest
@@ -36,7 +36,7 @@ public class TestVerifyDate {
 
         // Since date2 is in the past, it should return the end of the month of date1
         Date endOfMonth = Date.newInstance(date1.year(), date1.month(), Date.daysInMonth(date1.year(), date1.month()));
-        System.assertEquals(endOfMonth, result);
+        System.assertEquals(endOfMonth, result, 'Assert that the end of the month is equal to the given result.');
     }
     
     @isTest
